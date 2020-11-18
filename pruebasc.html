@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300;400&family=Neucha&display=swap" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+
+    <!-- Compiled and minified CSS
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_carusel.css">
+</head>
+
+<body>
+
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalPush2">
+        Launch modal
+    </button>
+    <div class="modal fade bd-example-modal-lg" id="modalPush2" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <!--Content-->
+            <div class="modal-content">
+                <!--Header-->
+                <div class="modal-header">
+                    <p class="heading">AliShock - Galeria de Imagenes</p>
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="white-text">&times;</span>
+                    </button>
+                </div>
+
+                <!--Body-->
+                <div class="modal-body">
+
+                    <div class="row">
+                        <div class="col-12" id="imagen-modal">
+                            
+                            <div class="banner">
+                                <section id="dg-container" class="dg-container">
+                                    <div class="dg-wrapper">  
+                                        <a href="#">
+                                            <img src="img/gal_fotos/IMG-20200912-WA0001.jpg">
+                                        </a>
+                                        <a href="#">
+                                            <img src="img/gal_fotos/IMG-20200912-WA0002.jpg">
+                                        </a>
+                                        <a href="#">
+                                            <img src="img/gal_fotos/IMG-20200912-WA0003.jpg">
+                                        </a>
+                                        <a href="#">
+                                            <img src="img/gal_fotos/IMG-20200912-WA0004.jpg">
+                                        </a>
+                                        <a href="#">
+                                            <img src="img/gal_fotos/IMG-20200912-WA0005.jpg">
+                                        </a>
+                                        <a href="#">
+                                            <img src="img/gal_fotos/IMG-20200912-WA0006.jpg">
+                                        </a>
+                                        <a href="#">
+                                            <img src="img/gal_fotos/IMG-20200912-WA0008.jpg">
+                                        </a>
+                                        <a href="#">
+                                            <img src="img/gal_fotos/IMG-20200912-WA0009.jpg">
+                                        </a>
+                                        <a href="#">
+                                            <img src="img/gal_fotos/IMG-20200912-WA0010.jpg">
+                                        </a>
+                                        <a href="#">
+                                            <img src="img/gal_fotos/IMG-20200912-WA0011.jpg">
+                                        </a>
+                                        <a href="#">
+                                            <img src="img/gal_fotos/IMG-20200912-WA0012.jpg">
+                                        </a>
+                                        <a href="#">
+                                            <img src="img/gal_fotos/IMG-20200912-WA0013.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="control"></div><!--esto lo agrego para que no me de error-->
+                                    <ol class="button" id="lightButton">
+                                        <li index="0">
+                                        <li index="1">
+                                        <li index="2">
+                                        <li index="3">
+                                        <li index="4">
+                                        <li index="5">
+                                        <li index="6">
+                                        <li index="7">
+                                        <li index="8">
+                                        <li index="9">
+                                        <li index="10">
+                                        <li index="11">
+                                        
+                                    </ol>
+                                    <nav>
+                                        <span class="dg-prev"></span>
+                                        <span class="dg-next"></span>
+                                    </nav>
+                                </section>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-dark btn-sm float-right" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript"
+        src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+
+    <script src="javascript/menu.js"></script>
+    <script src="javascript/modal.js"></script>
+    <script src="javascript/carusel.js"></script>
+
+</body>
+
+</html>

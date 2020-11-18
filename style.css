@@ -1,0 +1,105 @@
+*{
+    font-family: 'Mitr', sans-serif;
+    /* font-family: 'Neucha', cursive; */
+}
+body{
+    background-color: black;
+}
+.fondo-gral{
+    height: 100vh;
+    background-image: url(img/principal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dropdown-menu{
+    background:rgba(56, 56, 56, 0.6)!important;  
+}
+.navbar{
+    background:rgba(56, 56, 56, 0.4)!important;  
+}
+.top-nav-collapse{
+    background:rgba(56, 56, 56, 0.8)!important;
+}
+.dropdown-item, .nav-link{
+   color: white!important;
+}
+
+.dropdown-item:hover,#ubicacion:hover{
+    background-color: rgba(251, 251, 255, 0.9)!important;
+    color: black!important;
+}
+
+#ubicacion{
+    box-shadow: 0 0 10px #f5f2f2
+}
+.nosotros{
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+    margin-left: 1rem;
+}
+#footer-title{
+    font-size: 1.2rem;
+}
+.parrafo{
+    vertical-align: middle;
+    font-size:1.8rem;
+    margin:.5rem 7rem 1rem;
+    color: #ffffff;
+}
+
+
+/*animacion del DropDown*/
+.show > .dropdown-menu {
+    max-height: 800px;
+    visibility: visible;
+  }
+    
+  .dropdown-menu {
+    display: block;
+    max-height: 0;
+    visibility: hidden;
+    transition: all 1s ease-in-out;
+    overflow: hidden;
+  }
+
+.heading{
+    color: white!important;
+    font-size: xx-large;
+}
+.modal-content{
+    background-color: rgba(0,0,0,0.7);
+}
+.modal-lg {
+    max-width: 80% !important;
+    max-height: 90%!important;
+}
+#app-modal1 p, #app-modal p{
+    color: white!important;
+    font-size: x-large!important;
+}
+
+#app-modal strong{
+    font-size: x-large!important;
+}
+#modalPush{
+    margin-top: 1.6rem!important;
+}
+.carousel-inner div img{
+    max-width:500px;
+}
+
+@media screen and (max-width:990px){
+    .dropdown-menu{
+        background:#070707e6!important;  
+    }
+
+    .parrafo{
+        font-size:1.3rem;
+        margin:.5rem 1rem 1rem;
+    }
+    .nosotros{
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+}
+
